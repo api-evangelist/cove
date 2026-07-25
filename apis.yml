@@ -1,7 +1,24 @@
 aid: cove
 name: Cove
-description: 'Cove is a company surfaced as a portfolio company of homebrew and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Cove is a visual workspace for thinking with AI — an AI collaborator that works alongside
+  you on projects big and small in a spatial, canvas-style interface rather than a linear chat. The product
+  pairs an on-screen agent that can search the web, write and run code, and cite sources with a flexible
+  visual surface for organizing ideas, and it ships an accompanying Chrome browser extension. Cove is a
+  consumer/prosumer application backed by the venture firm Homebrew; as of this profile it does not publish
+  a public developer API, OpenAPI definition, or developer documentation. This entry tracks Cove in the
+  API Evangelist network, with domain-security posture captured by the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cove.ai/og-image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/cove/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai
+- Artificial Intelligence
+- AI Agents
+- Productivity
+- Workspace
+- Collaboration
+- Chrome Extension
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cove-domain-security.yml
 - type: Website
   url: https://cove.ai
+- type: Blog
+  url: https://cove.ai/blog
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
