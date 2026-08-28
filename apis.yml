@@ -7,6 +7,17 @@ description: 'Cove is a visual workspace for thinking with AI — an AI collabor
   consumer/prosumer application backed by the venture firm Homebrew; as of this profile it does not publish
   a public developer API, OpenAPI definition, or developer documentation. This entry tracks Cove in the
   API Evangelist network, with domain-security posture captured by the enrichment pipeline.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
